@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""A"""
+"""
+Annotations python
+"""
 
 
 def add(a: float, b: float) -> float:
-    """A"""
+    """
+    Summing two different floats.
+    """
     return a + b
