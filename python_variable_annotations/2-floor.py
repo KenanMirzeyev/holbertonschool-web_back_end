@@ -4,8 +4,10 @@ Basic annotations - floor
 """
 
 
-def floor(n: float) -> float:
+import math
+
+def floor(n: float) -> int:
     """
     Returns the n
     """
-    return n
+    return math.floor(n)
