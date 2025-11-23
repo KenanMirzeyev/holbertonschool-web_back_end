@@ -3,6 +3,7 @@
 Python concat strl
 """
 
+
 def concat(str1: str, str2: str) -> str:
     """
     Returns the string line.
