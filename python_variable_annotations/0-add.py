@@ -1,2 +1,3 @@
 #!/usr/bin/env python3
-return float(a) + float(b)
+def add(a: float, b: float) -> float:
+    return a + b
