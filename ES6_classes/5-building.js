@@ -9,11 +9,12 @@ class Building {
       );
     }
 
-    this.sqft = sqft;
+    this._sqft = sqft;
   }
-    get sqft() {
-      return this._sqft;
-    }
+
+  get sqft() {
+    return this._sqft;
+  }
 }
 
 export default Building;
